@@ -1,1 +1,1 @@
-# hardhat-template
+# hardhat template
