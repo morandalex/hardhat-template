@@ -26,7 +26,7 @@ const getMnemonic = () => {
   return '';
 };
 
-let INFURA_KEY          = process.env.INFURA_KEY        || ''
+let INFURA_KEY                      = process.env.INFURA_KEY                    || ''
 let POLYGONSCAN_API_KEY             = process.env.POLYGONSCAN_API_KEY           || ''
 let ETHERSCAN_API_KEY               = process.env.ETHERSCAN_API_KEY             || ''
 let GOERLI_DEPLOYER_PRIVATE_KEY     = process.env.GOERLI_DEPLOYER_PRIVATE_KEY   || ''
@@ -34,7 +34,7 @@ let MUMBAI_DEPLOYER_PRIVATE_KEY     = process.env.MUMBAI_DEPLOYER_PRIVATE_KEY   
 let POLYGON_DEPLOYER_PRIVATE_KEY    = process.env.POLYGON_DEPLOYER_PRIVATE_KEY  || ''
 let HARDHAT_DEPLOYER_PRIVATE_KEY    = process.env.HARDHAT_DEPLOYER_PRIVATE_KEY  || ''
 
-let polygonkey ,mumbaikey 
+
 if (
 !INFURA_KEY          &&  INFURA_KEY         !== '' &&
 !POLYGONSCAN_API_KEY             &&  POLYGONSCAN_API_KEY            !== '' &&
